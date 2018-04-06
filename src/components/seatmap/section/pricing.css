@@ -1,0 +1,15 @@
+.pricing {
+    font-size: 13px;
+    stroke-width: .7;
+    stroke: #AB7F15;
+    fill: #AB7F15;
+}
+
+.sold-out g{
+  fill: #e4ddb6!important;
+  stroke: #efebd4!important;
+  fill-opacity: 1;
+  -webkit-transition: fill .55s ease-in;
+  transition: fill .55s ease-in;
+  pointer-events : none;
+}

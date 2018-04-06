@@ -1,0 +1,12 @@
+.section {
+  stroke-width: .7;
+  stroke-miterlimit: 100;
+  stroke: #AB7F15;
+  transition: stroke .55s ease-in, fill .55s ease-in;
+  fill: #f0f1e1;
+  transition: all .15s;
+}
+
+.section:hover {
+  fill: #eeddbf;
+}

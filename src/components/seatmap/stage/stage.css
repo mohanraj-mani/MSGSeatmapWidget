@@ -1,0 +1,7 @@
+.stage {
+  fill: #efebd4!important;
+  isolation: isolate;
+  stroke: #ab7f15;
+  stroke-width: 2;
+  stroke-miterlimit: 100;
+}

@@ -1,0 +1,58 @@
+{
+  "name": "@msgctoit/msg-calendar-seatmap",
+  "version": "1.0.0",
+  "description": "Display SVG seatmap",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --port 8085 --content-base examples --env.NODE_ENV=production"
+  },
+  "keywords": [
+    "calendar",
+    "MSG",
+    "Seatmap"
+  ],
+  "author": "MSGTech",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "compass-mixins": "^0.12.10",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.8.3",
+    "postcss-loader": "^2.1.3",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^1.3.1",
+    "react-svg-loader": "^2.1.0",
+    "react-svg-popover": "^1.0.10",
+    "react-motion-drawer": "^2.1.5",
+    "react-test-renderer": "^15.5.4",
+    "sass-loader": "^6.0.7",
+    "sass-resources-loader": "^1.3.3",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-closure-compiler": "^2.1.6",
+    "webpack-config-utils": "^2.3.0",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-validator": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-sidebar": "^2.3.2"
+  }
+}

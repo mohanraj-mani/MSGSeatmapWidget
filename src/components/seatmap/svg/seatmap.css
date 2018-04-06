@@ -1,0 +1,39 @@
+.seating-map-svg {
+  width: 100%;
+  position: relative;
+}
+
+.seating-map-svg svg {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: visible;
+}
+
+.section-row {
+  width: 100%;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.section-area-name {
+  float: left;
+}
+
+.section-pricing {
+  float: right;
+}
+
+.section-seating {
+  padding-bottom: 12px;
+}
+
+.section-best-for {
+  padding-bottom: 5px;
+}
+
+.note {
+  color: #ab7f15;
+  padding: 7px 4px 7px 0;
+}
